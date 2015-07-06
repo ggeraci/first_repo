@@ -1,0 +1,308 @@
+[55] Failed to dealloc pd (Device or resource busy)
+[31] Failed to dealloc pd (Device or resource busy)
+[24] Failed to dealloc pd (Device or resource busy)
+[48] Failed to dealloc pd (Device or resource busy)
+[7] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+[compute-136-4.local:mpi_rank_120][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-140-1.local:mpi_rank_0][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-140-1.local:mpi_rank_8][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-138-4.local:mpi_rank_64][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-4.local:mpi_rank_72][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-3.local:mpi_rank_104][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-139-3.local:mpi_rank_32][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-138-4.local:mpi_rank_48][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-4.local:mpi_rank_80][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-3.local:mpi_rank_112][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-139-3.local:mpi_rank_40][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-138-4.local:mpi_rank_56][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-4.local:mpi_rank_88][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-3.local:mpi_rank_96][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-139-3.local:mpi_rank_24][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-140-1.local:mpi_rank_16][error_sighandler] Caught error: Segmentation fault (signal 11)
+[proxy:0:0@compute-140-1.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:0@compute-140-1.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@compute-140-1.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:1@compute-139-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:1@compute-139-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:1@compute-139-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:3@compute-137-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:3@compute-137-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:3@compute-137-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:4@compute-137-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:4@compute-137-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:4@compute-137-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:2@compute-138-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:2@compute-138-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:2@compute-138-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[mpiexec@compute-140-1.local] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@compute-140-1.local] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@compute-140-1.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@compute-140-1.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[compute-136-4.local:mpi_rank_120][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-140-1.local:mpi_rank_8][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-140-1.local:mpi_rank_16][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-138-4.local:mpi_rank_56][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-3.local:mpi_rank_96][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-139-3.local:mpi_rank_40][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-140-1.local:mpi_rank_0][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-138-4.local:mpi_rank_64][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-3.local:mpi_rank_112][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-4.local:mpi_rank_80][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-139-3.local:mpi_rank_24][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-138-4.local:mpi_rank_48][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-3.local:mpi_rank_104][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-4.local:mpi_rank_88][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-139-3.local:mpi_rank_32][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-137-4.local:mpi_rank_72][error_sighandler] Caught error: Segmentation fault (signal 11)
+[proxy:0:0@compute-140-1.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:0@compute-140-1.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@compute-140-1.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:1@compute-139-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:1@compute-139-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:1@compute-139-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:3@compute-137-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:3@compute-137-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:3@compute-137-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:4@compute-137-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:4@compute-137-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:4@compute-137-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:2@compute-138-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:2@compute-138-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:2@compute-138-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[mpiexec@compute-140-1.local] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@compute-140-1.local] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@compute-140-1.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@compute-140-1.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[compute-135-2.local:mpi_rank_56][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-136-4.local:mpi_rank_8][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-135-2.local:mpi_rank_48][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-136-4.local:mpi_rank_16][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-136-2.local:mpi_rank_32][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-136-2.local:mpi_rank_40][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-136-2.local:mpi_rank_24][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-136-4.local:mpi_rank_0][error_sighandler] Caught error: Segmentation fault (signal 11)
+[proxy:0:0@compute-136-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:0@compute-136-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@compute-136-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:1@compute-136-2.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:1@compute-136-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:1@compute-136-2.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[mpiexec@compute-136-4.local] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@compute-136-4.local] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@compute-136-4.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@compute-136-4.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[mpiexec@compute-112-4.local] HYDU_sock_write (utils/sock/sock.c:286): write error (Interrupted system call)
+[mpiexec@compute-112-4.local] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:169): unable to write data to proxy
+[mpiexec@compute-112-4.local] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@compute-112-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@compute-112-4.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@compute-112-4.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[mpiexec@compute-15-2.local] HYDU_sock_write (utils/sock/sock.c:286): write error (Bad file descriptor)
+[mpiexec@compute-15-2.local] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:169): unable to write data to proxy
+[mpiexec@compute-15-2.local] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@compute-15-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@compute-15-2.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@compute-15-2.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[5] Failed to dealloc pd (Device or resource busy)
+[29] Failed to dealloc pd (Device or resource busy)
+[0] Failed to dealloc pd (Device or resource busy)
+[24] Failed to dealloc pd (Device or resource busy)
+[compute-2-4.local:mpi_rank_249][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-100-3.local:mpi_rank_233][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-102-2.local:mpi_rank_161][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-102-3.local:mpi_rank_153][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-104-3.local:mpi_rank_65][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-101-4.local:mpi_rank_185][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-102-1.local:mpi_rank_169][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-101-3.local:mpi_rank_201][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-102-4.local:mpi_rank_137][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-104-1.local:mpi_rank_89][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-103-1.local:mpi_rank_121][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-104-2.local:mpi_rank_73][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-104-4.local:mpi_rank_57][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-105-3.local:mpi_rank_33][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-103-4.local:mpi_rank_105][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-100-4.local:mpi_rank_217][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-105-2.local:mpi_rank_41][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-101-3.local:mpi_rank_193][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-103-1.local:mpi_rank_129][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-103-4.local:mpi_rank_97][error_sighandler] Caught error: Segmentation fault (signal 11)
+[proxy:0:0@compute-48-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:0@compute-48-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@compute-48-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:2@compute-105-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:2@compute-105-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:2@compute-105-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:3@compute-105-2.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:3@compute-105-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:3@compute-105-2.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:4@compute-104-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:4@compute-104-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:4@compute-104-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:5@compute-104-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:5@compute-104-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:5@compute-104-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:11@compute-102-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:11@compute-102-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:11@compute-102-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:13@compute-102-2.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:13@compute-102-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:13@compute-102-2.local] main (pm/pmiserv/pmip.c:256): demux engine error waiting for event
+[proxy:0:12@compute-102-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:12@compute-102-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:12@compute-102-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:1@compute-110-2.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:1@compute-110-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:1@compute-110-2.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:15@compute-101-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:15@compute-101-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:15@compute-101-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:19@compute-100-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:19@compute-100-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:19@compute-100-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:20@compute-2-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:20@compute-2-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:20@compute-2-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:9@compute-103-2.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:9@compute-103-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:9@compute-103-2.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:7@compute-104-1.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:7@compute-104-1.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:7@compute-104-1.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:17@compute-101-2.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:17@compute-101-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:17@compute-101-2.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:21@compute-2-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:21@compute-2-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:21@compute-2-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[mpiexec@compute-48-3.local] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@compute-48-3.local] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@compute-48-3.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@compute-48-3.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[compute-101-4.local:mpi_rank_49][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-101-4.local:mpi_rank_57][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-102-3.local:mpi_rank_17][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-102-2.local:mpi_rank_25][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-102-1.local:mpi_rank_41][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-102-2.local:mpi_rank_33][error_sighandler] Caught error: Segmentation fault (signal 11)
+[proxy:0:0@compute-102-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:0@compute-102-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@compute-102-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:4@compute-101-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:4@compute-101-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:4@compute-101-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:5@compute-101-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:5@compute-101-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:5@compute-101-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[mpiexec@compute-102-4.local] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@compute-102-4.local] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@compute-102-4.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@compute-102-4.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[compute-102-4.local:mpi_rank_49][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-102-4.local:mpi_rank_57][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-116-3.local:mpi_rank_17][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-116-2.local:mpi_rank_25][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-116-2.local:mpi_rank_33][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-111-2.local:mpi_rank_41][error_sighandler] Caught error: Segmentation fault (signal 11)
+[proxy:0:0@compute-116-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:0@compute-116-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@compute-116-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:3@compute-111-2.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:3@compute-111-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:3@compute-111-2.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:1@compute-116-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:1@compute-116-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:1@compute-116-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:5@compute-102-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:5@compute-102-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:5@compute-102-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[mpiexec@compute-116-4.local] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@compute-116-4.local] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@compute-116-4.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@compute-116-4.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[compute-80-4.local:mpi_rank_16][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-80-4.local:mpi_rank_17][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-81-1.local:mpi_rank_2][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-81-1.local:mpi_rank_0][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-81-1.local:mpi_rank_1][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-78-3.local:mpi_rank_112][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-78-4.local:mpi_rank_98][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-78-3.local:mpi_rank_113][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-78-4.local:mpi_rank_96][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-79-3.local:mpi_rank_66][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-79-3.local:mpi_rank_64][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-79-2.local:mpi_rank_82][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-79-2.local:mpi_rank_80][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-79-3.local:mpi_rank_65][error_sighandler] Caught error: Segmentation fault (signal 11)
+[compute-79-2.local:mpi_rank_81][error_sighandler] Caught error: Segmentation fault (signal 11)
+[proxy:0:2@compute-80-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:2@compute-80-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:2@compute-80-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:8@compute-78-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:8@compute-78-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:8@compute-78-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:3@compute-80-1.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:3@compute-80-1.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:3@compute-80-1.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:4@compute-79-4.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:4@compute-79-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:4@compute-79-4.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:5@compute-79-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:5@compute-79-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:5@compute-79-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:10@compute-78-1.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:10@compute-78-1.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:10@compute-78-1.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:7@compute-79-1.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:7@compute-79-1.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:7@compute-79-1.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:9@compute-78-3.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:9@compute-78-3.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:9@compute-78-3.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[proxy:0:6@compute-79-2.local] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:913): assert (!closed) failed
+[proxy:0:6@compute-79-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:6@compute-79-2.local] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event
+[mpiexec@compute-81-1.local] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@compute-81-1.local] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@compute-81-1.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@compute-81-1.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[mpiexec@compute-120-2.local] HYDU_sock_write (utils/sock/sock.c:286): write error (Interrupted system call)
+[mpiexec@compute-120-2.local] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:169): unable to write data to proxy
+[mpiexec@compute-120-2.local] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@compute-120-2.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@compute-120-2.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@compute-120-2.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+[mpiexec@compute-60-4.local] HYDU_sock_write (utils/sock/sock.c:286): write error (Bad file descriptor)
+[mpiexec@compute-60-4.local] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:169): unable to write data to proxy
+[mpiexec@compute-60-4.local] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@compute-60-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@compute-60-4.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@compute-60-4.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+Warning: Permanently added 'compute-86-2' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-75-4' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-74-2' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-36-4' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-84-2' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-48-1' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-50-3' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-37-2' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-30-2' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-29-4' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-81-2' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-30-4' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-81-1' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-37-1' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-30-1' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-75-2' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-49-2' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-84-1' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-30-3' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-75-1' (RSA) to the list of known hosts.
+Warning: Permanently added 'compute-37-4' (RSA) to the list of known hosts.
+[mpiexec@compute-86-4.local] HYDU_sock_write (utils/sock/sock.c:286): write error (Bad file descriptor)
+[mpiexec@compute-86-4.local] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:169): unable to write data to proxy
+[mpiexec@compute-86-4.local] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@compute-86-4.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@compute-86-4.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@compute-86-4.local] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion

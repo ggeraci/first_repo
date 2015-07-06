@@ -1,0 +1,94 @@
+#!/bin/bash
+
+#PBS -N test
+#PBS -l nodes=22:ppn=24
+#PBS -l walltime=350:00:00      
+#PBS -q long
+#PBS -o out.txt -e error.txt
+
+
+# Loader-related stuff
+LOADER=mpiexec
+LOADER_OPTS="-ppn 12 -np"
+NUMPROCS=256
+
+#----------------------------------------------------------------------
+# setting the general parameters
+#----------------------------------------------------------------------
+
+#the name of the input file
+INPUT_FILE1=params.in
+INPUT_FILE2=params_IO.in
+
+# Your email address for emails
+MY_EMAIL=mrahmani@stanford.edu
+
+#how much time it takes to write down the restart files (in hours)
+write_time="0.05"
+
+#what the name of submission script (necessary to automaic resubmission)
+script_name=certainty_submit.qsub
+#----------------------------------------------
+
+LOG=log.txt
+LOG_OLD=log_old.txt
+ERR=err.txt
+ERR_OLD=err_old.txt
+#---------------------------------------------
+
+PROGRAM=./box
+PROGRAM_OPTS="$INPUT_FILE1 $INPUT_FILE2"
+
+# Go to working directory
+cd $PBS_O_WORKDIR
+
+#save the previous log file
+cat $LOG >> $LOG_OLD
+rm $LOG
+cat $ERR >> $ERR_OLD
+rm $ERR
+
+
+# Job number
+JOBNUM=$(echo $PBS_JOBID | awk -F"." '{print $1}')
+
+#What is the job name ?
+JOBNAME=$(${pbspath}qstat -f $JOBNUM | grep Job_Name | awk -F " " '{print $3}')
+
+echo '=============================================================='>>$LOG
+echo "`date +'%D %R'` : JOB $JOBNUM started.">>$LOG
+echo "`date +'%D %R'` : WORK_DIR  : $(pwd)">>$LOG
+echo "`date +'%D %R'` : RUN_TITLE : $JOBNAME">>$LOG
+echo "`date +'%D %R'` : WALL_TIME : $run_wall_time h">>$LOG
+
+# running the program
+echo "`date +'%D %R'` : Executing the program..." >> $LOG
+echo "`date +'%D %R'` : $LOADER $LOADER_OPTS $NUMPROCS $PROGRAM $PROGRAM_OPTS" >> $LOG
+
+# Mailing me that the job is about to start
+line="[certainity] Job $JOBNUM <${JOBNAME}> STARTED "
+(cat $LOG;) | mail -s "$line" $MY_EMAIL
+
+#EOF
+
+echo '-------------------------------------------------------------'>>$LOG
+echo " ">>$LOG
+
+#MAKE SURE USING LATEST VERSION BEFORE RUN: compile the program
+make
+
+##############################################################
+##############################################################
+$LOADER $LOADER_OPTS $NUMPROCS $PROGRAM $PROGRAM_OPTS  >>$LOG   2>>$ERR
+##############################################################
+##############################################################
+echo " ">>$LOG
+echo '-------------------------------------------------------------'>>$LOG
+echo "`date +'%D %R'` : ...done." >> $LOG
+#-------------------------------------------------------------
+#-------------------------------------------------------------
+
+echo '=============================================================='>>$LOG
+
+exit 0
+
