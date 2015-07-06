@@ -1,0 +1,124 @@
+:::Global grid is 512x128x128 with bordersize (number of ghost cells around local grid) =1
+
+:::Code started at t=1 with dt=5e-05 ,and is supposed to finish at t=20
+
+:::Some statistics are stored each timestep at .dat files. If files already exist code append new data to them. At each line there are two numbers: time and quantity of interest, which are separated by a space
+
+:::Gas velocity field is storing each 2000 timesteps (=each 0.1 time units) at RU.bin and gas density, hydrodynamic pressure, particle concentration, and particle velocity field are storing each 2000 timesteps (=each 0.1 time units) at Rho.bin, P.bin, C.bin, and Vp.bin respectively. Moreover thermodynamic pressure (P0), current time, and number of ellapsed timesteps are being stored each 2000 timesteps at numbers.dat. All files have a name extension according to the snapshot number in which they have been saved. You have to add the prefix "Restart_" to files in order to inform the code to retart code using those data.
+
+:::Initial condition for this run is: RESTART FILES READ FROM Restart_RU.bin, Restart_Rho.bin, Restart_P.bin, Restart_C.bin, Restart_Vp.bin,and  Restart_numbers.dat
+
+:::There is a finite net external energy to the system from radiation.
+
+:::Here is the list of dimensional quantities read from the input file:
+
+  DIMENSIONAL VARIABLE          BEFORE THRESHOLD                  AFTER THRESHOLD         UNIT
+          ----------------------------------------------------------------------------------
+          Lx                      1.600000e-01                      1.600000e-01           m
+          Ly----------------------4.000000e-02----------------------4.000000e-02-----------m
+          Lz                      4.000000e-02                      4.000000e-02           m
+          A-----------------------0.000000e+00----------------------0.000000e+00-----------1/s
+         Rho0                     1.200000e+00                      1.200000e+00           kg/m^3
+          U0----------------------2.065000e+00----------------------2.065000e+00-----------m/s
+          T0                      3.000000e+02                      3.000000e+02           K
+         Mu0----------------------1.900000e-05----------------------1.900000e-05-----------kg/(m.s)
+          k                       2.750000e-02                      2.750000e-02           kg.m/(K.s^3)
+          gx----------------------0.000000e+00----------------------0.000000e+00-----------m/s^2
+          gy                      0.000000e+00                      0.000000e+00           m/s^2
+          gz----------------------0.000000e+00----------------------0.000000e+00-----------m/s^2
+          Cp                      1.012000e+03                      1.012000e+03           J/(kg.K)
+          Cv----------------------7.230000e+02----------------------7.230000e+02-----------J/(kg.K)
+          n0                      3.297000e+10                      3.297000e+10           1/m^3
+          Dp----------------------1.020000e-05----------------------1.020000e-05-----------m
+        Rho_p                     8.900000e+03                      8.900000e+03           kg/m^3
+         Cv_p---------------------4.500000e+02----------------------4.500000e+02-----------J/(kg.K)
+       epsilon                    4.000000e-01                      1.000000e-07           
+          I0----------------------0.000000e+00----------------------6.860000e+06-----------J/(s.m^2)
+
+:::Following dimensional quantities are resulted from the above:
+
+  DIMENSIONAL VARIABLE                VALUE                            UNIT
+          R-----------------------2.890000e+02------------------------J/(kg.K)
+          P0----------------------1.040400e+05------------------------Pa
+         Vol----------------------2.560000e-04------------------------m^3
+        Vcell---------------------3.051758e-11------------------------m^3
+        Tau_p---------------------2.707474e-03------------------------s
+          mp----------------------4.945260e-12------------------------kg
+
+:::Following non-dimensional quantities are resulted from the above:
+
+NONDIMENSIONAL VARIABLE              VALUE
+         Np0----------------------8446504
+          Re----------------------5.216842e+03
+          Fr----------------------inf
+          Pr----------------------6.992000e-01
+        gamma---------------------1.399723e+00
+        GAMMA---------------------6.224066e-01
+          Nu----------------------2.000000e+00
+
+:::The poisson solver: Preconditioner: NONE   ,   Solver: FFT Based
+
+:::In this run 12 processors have been exploited,  which are distributed in 3D as 4x1x3 .
+
+:::What does each processor do:
+
+  ***Processor number: 0
+  Location in CPU grid: (0,0,0) , Neighbor processes: TOP:0 BOT:0 RIGHT:1 LEFT:3 FRONT:4 REAR:8
+  Local grid size: 130x130x45, Global grid index: i:0->127 j:0->127 k:0->42  ,  Global coordinate: x:0->0.04 y:0->0.04 z:0->0.0134375
+ I have initially 669755 particles.
+
+  ***Processor number: 1
+  Location in CPU grid: (1,0,0) , Neighbor processes: TOP:1 BOT:1 RIGHT:2 LEFT:0 FRONT:5 REAR:9
+  Local grid size: 130x130x45, Global grid index: i:128->255 j:0->127 k:0->42  ,  Global coordinate: x:0.04->0.08 y:0->0.04 z:0->0.0134375
+ I have initially 669749 particles.
+
+  ***Processor number: 2
+  Location in CPU grid: (2,0,0) , Neighbor processes: TOP:2 BOT:2 RIGHT:3 LEFT:1 FRONT:6 REAR:10
+  Local grid size: 130x130x45, Global grid index: i:256->383 j:0->127 k:0->42  ,  Global coordinate: x:0.08->0.12 y:0->0.04 z:0->0.0134375
+ I have initially 667068 particles.
+
+  ***Processor number: 3
+  Location in CPU grid: (3,0,0) , Neighbor processes: TOP:3 BOT:3 RIGHT:0 LEFT:2 FRONT:7 REAR:11
+  Local grid size: 130x130x45, Global grid index: i:384->511 j:0->127 k:0->42  ,  Global coordinate: x:0.12->0.16 y:0->0.04 z:0->0.0134375
+ I have initially 677854 particles.
+
+  ***Processor number: 4
+  Location in CPU grid: (0,0,1) , Neighbor processes: TOP:4 BOT:4 RIGHT:5 LEFT:7 FRONT:8 REAR:0
+  Local grid size: 130x130x45, Global grid index: i:0->127 j:0->127 k:43->85  ,  Global coordinate: x:0->0.04 y:0->0.04 z:0.0134375->0.026875
+ I have initially 734184 particles.
+
+  ***Processor number: 5
+  Location in CPU grid: (1,0,1) , Neighbor processes: TOP:5 BOT:5 RIGHT:6 LEFT:4 FRONT:9 REAR:1
+  Local grid size: 130x130x45, Global grid index: i:128->255 j:0->127 k:43->85  ,  Global coordinate: x:0.04->0.08 y:0->0.04 z:0.0134375->0.026875
+ I have initially 740932 particles.
+
+  ***Processor number: 6
+  Location in CPU grid: (2,0,1) , Neighbor processes: TOP:6 BOT:6 RIGHT:7 LEFT:5 FRONT:10 REAR:2
+  Local grid size: 130x130x45, Global grid index: i:256->383 j:0->127 k:43->85  ,  Global coordinate: x:0.08->0.12 y:0->0.04 z:0.0134375->0.026875
+ I have initially 748518 particles.
+
+  ***Processor number: 7
+  Location in CPU grid: (3,0,1) , Neighbor processes: TOP:7 BOT:7 RIGHT:4 LEFT:6 FRONT:11 REAR:3
+  Local grid size: 130x130x45, Global grid index: i:384->511 j:0->127 k:43->85  ,  Global coordinate: x:0.12->0.16 y:0->0.04 z:0.0134375->0.026875
+ I have initially 749239 particles.
+
+  ***Processor number: 8
+  Location in CPU grid: (0,0,2) , Neighbor processes: TOP:8 BOT:8 RIGHT:9 LEFT:11 FRONT:0 REAR:4
+  Local grid size: 130x130x44, Global grid index: i:0->127 j:0->127 k:86->127  ,  Global coordinate: x:0->0.04 y:0->0.04 z:0.026875->0.04
+ I have initially 703138 particles.
+
+  ***Processor number: 9
+  Location in CPU grid: (1,0,2) , Neighbor processes: TOP:9 BOT:9 RIGHT:10 LEFT:8 FRONT:1 REAR:5
+  Local grid size: 130x130x44, Global grid index: i:128->255 j:0->127 k:86->127  ,  Global coordinate: x:0.04->0.08 y:0->0.04 z:0.026875->0.04
+ I have initially 701944 particles.
+
+  ***Processor number: 10
+  Location in CPU grid: (2,0,2) , Neighbor processes: TOP:10 BOT:10 RIGHT:11 LEFT:9 FRONT:2 REAR:6
+  Local grid size: 130x130x44, Global grid index: i:256->383 j:0->127 k:86->127  ,  Global coordinate: x:0.08->0.12 y:0->0.04 z:0.026875->0.04
+ I have initially 695226 particles.
+
+  ***Processor number: 11
+  Location in CPU grid: (3,0,2) , Neighbor processes: TOP:11 BOT:11 RIGHT:8 LEFT:10 FRONT:3 REAR:7
+  Local grid size: 130x130x44, Global grid index: i:384->511 j:0->127 k:86->127  ,  Global coordinate: x:0.12->0.16 y:0->0.04 z:0.026875->0.04
+ I have initially 688897 particles.
+
